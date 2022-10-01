@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import {
   Footer,
   Blog,
@@ -6,13 +6,13 @@ import {
   Header,
   Possibility,
   WhatGPT3,
-} from './containers';
-import { Navbar, CTA, Brand } from './components';
+} from "./containers";
+import { Navbar, CTA, Brand } from "./components";
 
 const App = () => {
   return (
     <div className="App">
-      <main className="gradient__bg ">
+      <main className="gradient__bg">
         <Navbar />
         <Header />
       </main>
